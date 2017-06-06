@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E88E5"
+    tools:context="com.app.first.akhilesh_kumar_cloud.Main2Activity">
+
+    <Button
+        android:id="@+id/button_notation"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#FBC02D"
+        android:text="Notification"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="100dp" />
+
+
+    <Button
+        android:id="@+id/button_weather"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#3F51B5"
+        android:onClick="onClick"
+        android:text="Weather"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp" />
+
+    <Button
+        android:id="@+id/button_Mydevic"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#9E9E9E"
+        android:text="My Device"
+        android:layout_alignParentLeft="true"
+        android:onClick="onClick"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="80dp"/>
+
+    <Button
+        android:id="@+id/button_Check"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#607D8B"
+        android:text="Check Internet"
+        android:onClick="onClick"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="25dp"/>
+
+    <Button
+        android:id="@+id/button_camrera"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#FFAB91"
+        android:text="Camera"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#8BC34A"
+        android:text="Location"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="250dp" />
+
+
+
+</RelativeLayout>
